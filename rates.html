@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohamed Elnahal: Rates</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Clear packages and prices for working with Mohamed Elnahal, tech creator on YouTube, TikTok and Instagram.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mohamed Elnahal: Rates">
+<meta property="og:description" content="Clear packages. More ways to work together.">
+<meta property="og:image" content="https://melna7al.github.io/MediaKit/preview.jpg">
+<meta property="og:url" content="https://melna7al.github.io/MediaKit/rates.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#091310; --ink-soft:#101C18; --paper:#F3F4F0; --paper-dim:#C9CFC7;
+    --moss:#0B7F58; --sage:#6CAC97; --mint:#A8E6D1;
+    --line: rgba(243,244,240,0.14); --line-strong: rgba(243,244,240,0.28);
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-behavior:smooth; }
+  html.lock, html.lock body{ overflow:hidden; }
+  @media (prefers-reduced-motion: reduce){ *{ animation:none !important; transition:none !important; } }
+  body{ background:var(--ink); color:var(--paper); font-family:'Inter', sans-serif; line-height:1.5; overflow-x:hidden; }
+  h1,h2,h3,h4,.display{ font-family:'Instrument Sans', sans-serif; font-weight:600; letter-spacing:-0.01em; }
+  a{ color:inherit; }
+  button{ font:inherit; color:inherit; }
+
+  .bg-scene{ position:fixed; inset:0; z-index:0; pointer-events:none; overflow:hidden; }
+  .bg-scene::before{
+    content:""; position:absolute; inset:-10%;
+    background:
+      radial-gradient(60% 45% at 12% 8%, rgba(11,127,88,0.55), transparent 60%),
+      radial-gradient(55% 50% at 92% 18%, rgba(108,172,151,0.22), transparent 65%),
+      radial-gradient(70% 55% at 30% 92%, rgba(11,127,88,0.4), transparent 60%),
+      radial-gradient(50% 40% at 85% 85%, rgba(168,230,209,0.08), transparent 60%);
+    filter: blur(60px); animation: driftScene 26s ease-in-out infinite alternate;
+  }
+  .bg-scene::after{
+    content:""; position:absolute; inset:0;
+    background-image: repeating-linear-gradient(100deg, rgba(243,244,240,0.035) 0px, rgba(243,244,240,0.035) 2px, transparent 2px, transparent 34px);
+    mix-blend-mode:overlay; opacity:0.5;
+  }
+  @keyframes driftScene{ 0%{ transform:translate(0,0) scale(1); } 100%{ transform:translate(-2.5%,2%) scale(1.06); } }
+
+  .wrap{ position:relative; z-index:1; max-width:1100px; margin:0 auto; padding: 36px 6vw 90px; }
+  .back{
+    display:inline-flex; align-items:center; gap:8px; padding:10px 18px 10px 12px; border-radius:999px;
+    border:1px solid var(--line-strong); background:rgba(9,19,16,0.6); backdrop-filter: blur(10px);
+    text-decoration:none; font-size:0.9rem; -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  }
+  .back svg{ width:18px; height:18px; }
+  .back:active, .back:focus-visible{ color:var(--mint); border-color:var(--mint); box-shadow:0 0 22px rgba(168,230,209,0.4); outline:none; }
+  @media (hover:hover) and (pointer:fine){
+    .back{ transition: color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease; }
+    .back:hover{ color:var(--mint); border-color:var(--mint); transform:translateY(-2px); box-shadow:0 0 26px rgba(168,230,209,0.45); }
+  }
+  .intro{ margin:56px 0 52px; }
+  .intro h1{ font-size:clamp(2.2rem, 5.2vw, 3.8rem); line-height:1.08; }
+  .intro h1 span{ display:block; color:var(--mint); }
+
+  .rise{ animation: rise 0.8s ease backwards; animation-delay: calc(var(--i, 0) * 110ms); }
+  @keyframes rise{ from{ opacity:0; transform:translateY(22px); } to{ opacity:1; transform:none; } }
+
+  .groups{ display:grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto auto auto; column-gap:26px; row-gap:16px; }
+  .group{ display:grid; grid-row: span 3; grid-template-rows: auto auto auto; row-gap:16px; }
+  @supports (grid-template-rows: subgrid){ .group{ grid-template-rows: subgrid; } }
+  @media (max-width:860px){
+    .groups{ grid-template-columns:1fr; grid-template-rows:none; row-gap:30px; }
+    .group{ grid-row:auto; grid-template-rows:none; }
+  }
+  .group-title{ font-size:1.02rem; color:var(--sage); font-weight:500; display:flex; align-items:center; gap:12px; padding-bottom:2px; }
+  .group-title .tt{ margin-right:6px; }
+
+  .mini-icons{ display:flex; gap:8px; margin-top:12px; }
+  .mi{
+    width:34px; height:34px; border-radius:10px; display:flex; align-items:center; justify-content:center;
+    background:rgba(243,244,240,0.07); color:var(--sage); text-decoration:none;
+    -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  }
+  .mi svg{ width:17px; height:17px; }
+  .mi:active, .mi:focus-visible{ color:var(--mint); box-shadow:0 0 18px rgba(168,230,209,0.4); outline:none; }
+  @media (hover:hover) and (pointer:fine){
+    .mi{ transition: color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease; }
+    .mi:hover{ color:var(--mint); transform:scale(1.12); box-shadow:0 0 22px rgba(168,230,209,0.45); }
+  }
+
+  .rate-card{
+    position:relative; display:flex; flex-direction:column;
+    background:var(--ink-soft); border:1px solid var(--line); border-radius:18px; padding:24px 26px 22px;
+  }
+  .rc-top{ display:flex; align-items:baseline; justify-content:space-between; gap:16px; }
+  .rc-top h3{ font-size:1.3rem; }
+  .rc-price{ font-family:'Instrument Sans', sans-serif; font-size:1.9rem; font-weight:600; color:var(--mint); white-space:nowrap; }
+  .rc-price small{ font-family:'Inter', sans-serif; font-size:0.9rem; font-weight:500; color:var(--sage); margin-left:8px; }
+  .featured .rc-price small{ font-size:1.05rem; }
+  .rc-line{ margin-top:12px; color:var(--paper); font-size:1rem; }
+  .rc-list{ list-style:none; margin:14px 0 16px; display:flex; flex-direction:column; gap:8px; }
+  .rc-list li{ position:relative; padding-left:22px; color:var(--paper-dim); font-size:0.9rem; }
+  .rc-list li::before{ content:""; position:absolute; left:2px; top:0.55em; width:8px; height:8px; border-radius:50%; background:var(--moss); box-shadow:0 0 10px rgba(168,230,209,0.5); }
+  .save{
+    align-self:flex-start; margin-bottom:14px; padding:5px 12px; border-radius:999px;
+    background:rgba(168,230,209,0.12); color:var(--mint); font-size:0.78rem; font-weight:600;
+  }
+  .boost{ margin-bottom:14px; padding:12px 14px; border-radius:12px; background:rgba(168,230,209,0.1); border:1px solid rgba(168,230,209,0.3); box-shadow:0 0 22px rgba(168,230,209,0.12); }
+  .boost b{ display:block; font-family:'Instrument Sans', sans-serif; font-size:0.98rem; font-weight:600; color:var(--mint); }
+  .boost span{ display:block; margin-top:3px; color:var(--paper-dim); font-size:0.88rem; }
+  .rc-gain{ margin-top:auto; padding-top:14px; border-top:1px solid var(--line); font-size:0.9rem; color:var(--paper); }
+  .rc-gain span{ color:var(--sage); font-weight:600; margin-right:6px; }
+
+  .tiers{ display:flex; flex-direction:column; gap:10px; margin-top:14px; }
+  .tier{
+    display:flex; align-items:center; justify-content:space-between; gap:14px; padding:12px 14px; border-radius:12px;
+    background:rgba(243,244,240,0.05); border:1px solid var(--line);
+  }
+  .tier b{ display:block; font-family:'Instrument Sans', sans-serif; font-size:0.98rem; font-weight:600; }
+  .tier span{ display:block; color:var(--sage); font-size:0.78rem; margin-top:2px; }
+  .tier-price{ font-family:'Instrument Sans', sans-serif; font-size:1.4rem; font-weight:600; color:var(--mint); }
+
+  @media (hover:hover) and (pointer:fine){
+    .rate-card{ transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; }
+    .rate-card:hover{
+      border-color:var(--mint); transform: translateY(-4px);
+      box-shadow: 0 0 0 1px rgba(168,230,209,0.3), 0 0 32px rgba(168,230,209,0.22), 0 0 90px rgba(11,127,88,0.4);
+    }
+  }
+  .rate-card:active{ border-color:var(--mint); }
+
+  .featured{
+    margin-top:28px; display:grid; grid-template-columns: 1fr 1.05fr; gap:34px; align-items:center; padding:34px 34px 30px;
+    border-color: rgba(168,230,209,0.4);
+    box-shadow: 0 0 0 1px rgba(168,230,209,0.1), 0 0 44px rgba(168,230,209,0.14), 0 0 100px rgba(11,127,88,0.28);
+    background: radial-gradient(80% 90% at 0% 0%, rgba(11,127,88,0.3), var(--ink-soft) 70%);
+  }
+  @media (max-width:860px){ .featured{ grid-template-columns:1fr; gap:24px; padding:28px 24px; } }
+  .featured + .featured{ margin-top:16px; }
+  .monthly{ margin-top:28px; }
+  .monthly-note{ margin:8px 0 14px; color:var(--paper-dim); font-size:0.92rem; }
+  .monthly-grid{ display:grid; grid-template-columns:1fr 1fr; gap:26px; }
+  .monthly-grid .featured{ margin-top:0; }
+  .featured.stack{ grid-template-columns:1fr; gap:22px; align-items:start; align-content:start; padding:30px 28px 28px; }
+  @media (max-width:860px){ .monthly-grid{ grid-template-columns:1fr; gap:16px; } }
+  .featured .rc-top{ flex-direction:column; align-items:flex-start; gap:8px; }
+  .featured .rc-top h3{ font-size:1.7rem; }
+  .featured .rc-price{ font-size:3rem; }
+  .featured .rc-gain{ margin-top:16px; }
+  .featured .save{ display:inline-block; margin:14px 0 0; }
+  .parts{ display:flex; flex-direction:column; gap:12px; }
+  .part{ padding:16px 20px; border-radius:14px; background:rgba(243,244,240,0.05); border:1px solid var(--line); }
+  .part h4{ font-size:1.02rem; margin-bottom:4px; }
+  .part p{ color:var(--paper-dim); font-size:0.92rem; }
+  .part.perks ul{ list-style:none; display:flex; flex-direction:column; gap:6px; margin-top:6px; }
+  .part.perks li{ position:relative; padding-left:20px; color:var(--paper-dim); font-size:0.9rem; }
+  .part.perks li::before{ content:""; position:absolute; left:2px; top:0.55em; width:7px; height:7px; border-radius:50%; background:var(--moss); box-shadow:0 0 10px rgba(168,230,209,0.5); }
+
+  .extras{ margin-top:28px; display:grid; grid-template-columns:1fr 1fr; gap:26px; }
+  @media (max-width:860px){ .extras{ grid-template-columns:1fr; gap:16px; } }
+  .rc-list b{ color:var(--paper); font-weight:600; }
+
+  .foot{ margin-top:44px; display:flex; flex-wrap:wrap; gap:24px; align-items:center; justify-content:space-between; }
+  .foot p{ color:var(--paper-dim); font-size:0.95rem; max-width:52ch; }
+  .cta{
+    border:0; cursor:pointer; padding:14px 28px; border-radius:999px; font-weight:600; background:var(--mint); color:#06150f;
+    -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  }
+  @media (hover:hover) and (pointer:fine){
+    .cta{ transition: transform 0.25s ease, box-shadow 0.25s ease; }
+    .cta:hover{ transform: translateY(-2px); box-shadow: 0 0 34px rgba(168,230,209,0.5); }
+  }
+  .cta:active{ box-shadow: 0 0 24px rgba(168,230,209,0.5); }
+  .note{ margin-top:26px; color:var(--sage); font-size:0.85rem; }
+
+  /* booking modal */
+  .bk{
+    position:fixed; inset:0; z-index:50; display:flex; align-items:center; justify-content:center; padding:20px;
+    background:rgba(5,10,8,0.82); backdrop-filter: blur(8px);
+    opacity:0; visibility:hidden; transition: opacity 0.25s ease, visibility 0s linear 0.25s;
+  }
+  .bk.open{ opacity:1; visibility:visible; transition: opacity 0.25s ease, visibility 0s; }
+  .bk-card{
+    width:min(560px, 100%); max-height:92vh; overflow-y:auto; padding:28px 26px 24px; border-radius:20px;
+    background: radial-gradient(80% 60% at 0% 0%, rgba(11,127,88,0.28), var(--ink-soft) 70%);
+    border:1px solid rgba(168,230,209,0.4); box-shadow: 0 0 60px rgba(11,127,88,0.35);
+  }
+  .bk-head{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:6px; }
+  .bk-head h2{ font-size:1.5rem; }
+  .bk-x{ width:36px; height:36px; border-radius:50%; border:1px solid var(--line-strong); background:transparent; cursor:pointer; display:flex; align-items:center; justify-content:center; }
+  .bk-x svg{ width:15px; height:15px; }
+  .bk-sub{ color:var(--paper-dim); font-size:0.92rem; margin-bottom:16px; }
+  .opts{ display:flex; flex-direction:column; gap:8px; }
+  .opt{
+    display:flex; align-items:center; gap:12px; padding:12px 14px; border-radius:12px; cursor:pointer;
+    border:1px solid var(--line); background:rgba(243,244,240,0.04);
+    -webkit-tap-highlight-color: transparent;
+  }
+  .opt input{ accent-color: #A8E6D1; width:17px; height:17px; flex:none; }
+  .opt-name{ flex:1; font-size:0.95rem; }
+  .opt-price{ color:var(--mint); font-weight:600; }
+  .opt:has(input:checked){ border-color:var(--mint); background:rgba(168,230,209,0.1); box-shadow:0 0 22px rgba(168,230,209,0.2); }
+  @media (hover:hover) and (pointer:fine){ .opt{ transition: border-color 0.2s ease; } .opt:hover{ border-color:rgba(168,230,209,0.6); } }
+  .bk label.msg{ display:block; margin-top:16px; font-size:0.9rem; color:var(--paper-dim); }
+  .bk textarea{
+    width:100%; margin-top:8px; min-height:92px; resize:vertical; padding:12px 14px; border-radius:12px;
+    background:rgba(243,244,240,0.05); border:1px solid var(--line-strong); color:var(--paper); font:inherit; font-size:0.95rem;
+  }
+  .bk textarea:focus{ outline:none; border-color:var(--mint); box-shadow:0 0 18px rgba(168,230,209,0.25); }
+  .bk-actions{ display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin-top:18px; }
+  .bk-actions .alt, .bk-fb .alt{
+    padding:13px 20px; border-radius:999px; border:1px solid var(--line-strong); background:transparent; cursor:pointer; text-decoration:none; font-size:0.92rem; display:inline-block;
+  }
+  a.cta{ display:inline-block; text-decoration:none; text-align:center; }
+  .bk-fb{ margin-top:14px; padding:12px 14px; border-radius:12px; border:1px solid var(--line); background:rgba(243,244,240,0.05); }
+  .bk-fb[hidden]{ display:none; }
+  .bk-fb p{ color:var(--paper-dim); font-size:0.9rem; margin-bottom:10px; }
+  .bk-fb b{ color:var(--paper); font-weight:600; }
+  .bk-direct{ margin-top:14px; color:var(--sage); font-size:0.85rem; }
+  .bk-err{ color:#ffb4a8; font-size:0.85rem; margin-top:10px; min-height:1.2em; }
+</style>
+</head>
+<body>
+<div class="bg-scene"></div>
+
+<div class="wrap">
+  <a class="back rise" href="https://melna7al.github.io/MediaKit/" style="--i:0">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>Media kit
+  </a>
+
+  <header class="intro rise" style="--i:1">
+    <h1>Clear packages.<span>More ways to work together.</span></h1>
+  </header>
+
+  <div class="groups">
+    <section class="group rise" style="--i:2">
+      <div class="group-title"><div class="mini-icons tt0"><a class="mi" href="https://youtube.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on YouTube" title="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a></div> On YouTube</div>
+      <article class="rate-card"><div class="rc-top"><h3>Integration</h3><div class="rc-price">$100</div></div><div class="mini-icons"><a class="mi" href="https://youtube.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on YouTube" title="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a></div><p class="rc-line">Your product, inside my next video.</p><ul class="rc-list"><li>A dedicated mention built into my next YouTube video</li><li>Product link pinned as the first comment</li></ul><p class="rc-gain"><span>You get</span>A natural introduction to a tech audience, at the lowest entry price.</p></article>
+      <article class="rate-card"><div class="rc-top"><h3>Dedicated Video</h3><div class="rc-price">$250</div></div><div class="mini-icons"><a class="mi" href="https://youtube.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on YouTube" title="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a></div><p class="rc-line">A full video made for your product.</p><ul class="rc-list"><li>One dedicated YouTube video, 5 to 6 minutes</li><li>Hands-on testing before filming</li><li>Delivered 4 to 7 days after I receive the product or app access and finish testing</li><li>Product link pinned as the first comment</li></ul><p class="rc-gain"><span>You get</span>A complete, honest walkthrough that stays on YouTube for people to find.</p></article>
+    </section>
+    <section class="group rise" style="--i:3">
+      <div class="group-title"><div class="mini-icons tt0"><a class="mi" href="https://tiktok.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on TikTok" title="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 4c0 2.6 2 4.6 4.6 4.6"/></svg></a><a class="mi" href="https://instagram.com/melna7al" target="_blank" rel="noopener" aria-label="Open on Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r="0.9" fill="currentColor" stroke="none"/></svg></a><a class="mi" href="https://youtube.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on YouTube" title="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a></div> On short-form platforms</div>
+      <article class="rate-card"><div class="rc-top"><h3>TikTok Short</h3><div class="rc-price">$150</div></div><div class="mini-icons"><a class="mi" href="https://tiktok.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on TikTok" title="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 4c0 2.6 2 4.6 4.6 4.6"/></svg></a></div><p class="rc-line">One Short, made for TikTok.</p><ul class="rc-list"><li>One dedicated Short featuring your product on TikTok</li><li>Product link pinned as the first comment</li><li>Your link in my TikTok bio for 30 days</li></ul><p class="rc-gain"><span>You get</span>Fast, focused reach for a launch, a new feature or an offer.</p></article>
+      <article class="rate-card"><div class="rc-top"><h3>Cross-Platform Short</h3><div class="rc-price">$220</div></div><div class="mini-icons"><a class="mi" href="https://youtube.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on YouTube" title="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a><a class="mi" href="https://tiktok.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on TikTok" title="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 4c0 2.6 2 4.6 4.6 4.6"/></svg></a><a class="mi" href="https://instagram.com/melna7al" target="_blank" rel="noopener" aria-label="Open on Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r="0.9" fill="currentColor" stroke="none"/></svg></a></div><p class="rc-line">One Short. Three platforms.</p><ul class="rc-list"><li>One dedicated Short published on TikTok, YouTube Shorts and Instagram Reels</li><li>Product link pinned as the first comment</li><li>Instagram Stories featuring your product</li><li>Your link in my TikTok and Instagram bios for 30 days</li></ul><div class="boost"><b>Just $70 more than TikTok alone</b><span>You get 2 extra platforms, higher reach and a different audience: YouTube Shorts and Instagram Reels.</span></div><p class="rc-gain"><span>You get</span>Reach across three feeds from a single video.</p></article>
+    </section>
+  </div>
+
+  <section class="rate-card featured rise" style="--i:4">
+    <div>
+      <div class="rc-top"><h3>Full Campaign</h3><div class="rc-price">$400<small>one-time</small></div></div>
+      <p class="rc-line">For brands that want both: a detailed YouTube video that explains your product in depth, plus a Short that takes it to a wider audience on social media.</p>
+      <span class="save">Save $70 versus booking both separately ($470)</span>
+      <p class="rc-gain"><span>You get</span>People who truly understand your product, and higher reach across social media, built to work together.</p>
+    </div>
+    <div class="parts"><div class="part"><h4>On YouTube</h4><p>One dedicated 5 to 6 minute video, with hands-on testing and delivery 4 to 7 days after I finish testing.</p></div><div class="part"><h4>On short-form platforms</h4><p>One Cross-Platform Short published on TikTok, YouTube Shorts and Instagram Reels.</p></div><div class="part perks"><h4>Included</h4><ul><li>Product link pinned as the first comment</li><li>Instagram Stories featuring your product</li><li>Your link in my TikTok and Instagram bios for 30 days</li></ul></div></div>
+  </section>
+  <section class="monthly rise" style="--i:5">
+    <div class="group-title"><div class="mini-icons tt0"><a class="mi" href="https://tiktok.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on TikTok" title="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46"/><path d="M14 4c0 2.6 2 4.6 4.6 4.6"/></svg></a><a class="mi" href="https://instagram.com/melna7al" target="_blank" rel="noopener" aria-label="Open on Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r="0.9" fill="currentColor" stroke="none"/></svg></a><a class="mi" href="https://youtube.com/@melna7al" target="_blank" rel="noopener" aria-label="Open on YouTube" title="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a></div> Monthly plans for social media</div>
+    <p class="monthly-note">Short-form only. These plans are Cross-Platform Shorts and do not include a long YouTube video.</p>
+    <div class="monthly-grid">
+      <article class="rate-card featured stack">
+        <div>
+          <div class="rc-top"><h3>Monthly Plus</h3><div class="rc-price">$400<small>/ month</small></div></div>
+          <p class="rc-line">A steady social media presence, not a one-off.</p>
+          <span class="save">$200 per Short. Save $40 versus booking separately ($440)</span>
+          <p class="rc-gain"><span>You get</span>A full month of social content, and a creator who already knows your product.</p>
+        </div>
+        <div class="parts"><div class="part"><h4>Every month</h4><p>2 Cross-Platform Shorts, about one every two weeks. No long YouTube video.</p></div><div class="part"><h4>On short-form platforms</h4><p>Published on TikTok, YouTube Shorts and Instagram Reels.</p></div><div class="part perks"><h4>Included</h4><ul><li>Product link pinned and Instagram Stories with every Short</li><li>Your link in my TikTok and Instagram bios for 30 days</li></ul></div></div>
+      </article>
+      <article class="rate-card featured stack">
+        <div>
+          <div class="rc-top"><h3>Monthly Pro</h3><div class="rc-price">$760<small>/ month</small></div></div>
+          <p class="rc-line">A Short every week, on every feed.</p>
+          <span class="save">$190 per Short. Save $120 versus booking separately ($880)</span>
+          <p class="rc-gain"><span>You get</span>A weekly presence on every feed, on a schedule you can plan around.</p>
+        </div>
+        <div class="parts"><div class="part"><h4>Every month</h4><p>4 Cross-Platform Shorts, one every week. No long YouTube video.</p></div><div class="part"><h4>On short-form platforms</h4><p>Published on TikTok, YouTube Shorts and Instagram Reels.</p></div><div class="part perks"><h4>Included</h4><ul><li>Product link pinned and Instagram Stories with every Short</li><li>Your link in my TikTok and Instagram bios for 30 days</li><li>Priority scheduling and a fixed publishing day each week</li><li>A 15-minute planning call every month</li></ul></div></div>
+      </article>
+    </div>
+  </section>
+
+  <div class="extras rise" style="--i:6">
+    <article class="rate-card">
+      <div class="rc-top"><h3>Included with every package</h3></div>
+      <ul class="rc-list">
+        <li><b>Performance report.</b> One page, 7 days after publishing: views, top countries and audience breakdown. Monthly plans get one report per month.</li>
+        <li><b>Pinned product link</b> as the first comment.</li>
+        <li><b>Your link in my bio for 30 days</b> on TikTok and Instagram, on every package that includes social content.</li>
+        <li><b>Returning brands get 10% off</b> single packages and Full Campaign. Not valid on monthly plans or add-ons, and it can't be combined with another discount.</li>
+      </ul>
+    </article>
+    <article class="rate-card">
+      <div class="rc-top"><h3>Add-ons</h3></div>
+      <div class="tiers">
+        <div class="tier"><div><b>Ad Rights</b><span>Per video, per 30 days</span></div><div class="tier-price">+$50</div></div>
+      </div>
+      <ul class="rc-list">
+        <li>Run the video as a paid ad through TikTok Spark Ads, Instagram Partnership Ads or YouTube's equivalent, using an authorization code from my account</li>
+        <li>Videos stay on my pages only, with no files handed over</li>
+        <li>The 30 days start from the publish date and the video is not edited. When the period ends, stop the ad or renew</li>
+      </ul>
+    </article>
+  </div>
+
+  <div class="foot rise" style="--i:7">
+    <p>Need something different, like a single-platform YouTube Short? Tell me what you are launching and I will shape a package around it.</p>
+    <button type="button" class="cta" id="bookBtn">Book a package</button>
+  </div>
+  <p class="note">All prices are in USD.</p>
+</div>
+
+<div class="bk" id="bk" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="bk-card">
+    <div class="bk-head">
+      <h2>Book a package</h2>
+      <button type="button" class="bk-x" id="bkX" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg></button>
+    </div>
+    <p class="bk-sub">Choose what you would like to work on.</p>
+    <div class="opts" id="opts"><label class="opt"><input type="radio" name="pkg" value="Integration|$100"><span class="opt-name">Integration</span><span class="opt-price">$100</span></label><label class="opt"><input type="radio" name="pkg" value="Dedicated Video|$250"><span class="opt-name">Dedicated Video</span><span class="opt-price">$250</span></label><label class="opt"><input type="radio" name="pkg" value="TikTok Short|$150"><span class="opt-name">TikTok Short</span><span class="opt-price">$150</span></label><label class="opt"><input type="radio" name="pkg" value="Cross-Platform Short|$220"><span class="opt-name">Cross-Platform Short</span><span class="opt-price">$220</span></label><label class="opt"><input type="radio" name="pkg" value="Full Campaign|$400 one-time"><span class="opt-name">Full Campaign</span><span class="opt-price">$400</span></label><label class="opt"><input type="radio" name="pkg" value="Monthly Plus|$400 / month"><span class="opt-name">Monthly Plus</span><span class="opt-price">$400 / month</span></label><label class="opt"><input type="radio" name="pkg" value="Monthly Pro|$760 / month"><span class="opt-name">Monthly Pro</span><span class="opt-price">$760 / month</span></label><label class="opt"><input type="radio" name="pkg" value="Something else|"><span class="opt-name">Something else</span><span class="opt-price"></span></label></div>
+    <div class="opts" style="margin-top:12px"><label class="opt"><input type="checkbox" id="adRights"><span class="opt-name">Add Ad Rights <span style="color:var(--sage);font-size:0.82rem">(per video, 30 days)</span></span><span class="opt-price">+$50</span></label></div>
+    <label class="msg" for="bkMsg">Anything else you want to tell me?</label>
+    <textarea id="bkMsg" placeholder="Your product, timing, ideas..."></textarea>
+    <div class="bk-err" id="bkErr"></div>
+    <div class="bk-actions">
+      <a class="cta" id="bkSend" href="#">Send by email</a>
+      <a class="alt" id="bkGmail" href="#" target="_blank" rel="noopener">Open in Gmail</a>
+    </div>
+    <div class="bk-fb" id="bkFb" hidden>
+      <p>Didn't an email app open? Use "Open in Gmail", or copy your request and send it to <b>meelna7al@gmail.com</b>.</p>
+      <button type="button" class="alt" id="bkCopy">Copy message</button>
+    </div>
+    <p class="bk-direct">Or write to me directly at <a href="mailto:meelna7al@gmail.com">meelna7al@gmail.com</a></p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var TO = 'meelna7al@gmail.com';
+  var bk = document.getElementById('bk');
+  var root = document.documentElement;
+  var send = document.getElementById('bkSend');
+  var gm = document.getElementById('bkGmail');
+  var fb = document.getElementById('bkFb');
+  var err = document.getElementById('bkErr');
+  var timer = null;
+  function open(){ bk.classList.add('open'); bk.setAttribute('aria-hidden','false'); root.classList.add('lock'); }
+  function close(){ bk.classList.remove('open'); bk.setAttribute('aria-hidden','true'); root.classList.remove('lock'); fb.hidden = true; clearTimeout(timer); }
+  document.getElementById('bookBtn').addEventListener('click', open);
+  document.getElementById('bkX').addEventListener('click', close);
+  bk.addEventListener('click', function(e){ if(e.target === bk) close(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') close(); });
+
+  function enc(v){ return encodeURIComponent(v); }
+  function current(){
+    var sel = document.querySelector('input[name="pkg"]:checked');
+    if(!sel) return null;
+    var parts = sel.value.split('|');
+    var name = parts[0], price = parts[1];
+    var ad = document.getElementById('adRights').checked;
+    var msg = document.getElementById('bkMsg').value.trim();
+    var subject = 'Package inquiry: ' + name + (price ? ' (' + price + ')' : '') + (ad ? ' + Ad Rights' : '');
+    var body = 'Hi Mohamed,\n\nI would like to book the following package:\n' + name + (price ? '\nPrice: ' + price : '') + (ad ? '\nAdd-on: Ad Rights (+$50 per video, per 30 days)' : '') + '\n\n' + (msg ? 'Message:\n' + msg + '\n\n' : '') + 'Thank you.';
+    return {subject: subject, body: body};
+  }
+  // keep both links always pointing at the current choice, so they are real links the browser can follow
+  function sync(){
+    var m = current();
+    if(!m){ send.setAttribute('href','#'); gm.setAttribute('href','#'); return null; }
+    send.setAttribute('href', 'mailto:' + TO + '?subject=' + enc(m.subject) + '&body=' + enc(m.body));
+    gm.setAttribute('href', 'https://mail.google.com/mail/?view=cm&fs=1&to=' + enc(TO) + '&su=' + enc(m.subject) + '&body=' + enc(m.body));
+    return m;
+  }
+  function onChange(){ sync(); err.textContent = ''; fb.hidden = true; }
+  bk.addEventListener('change', onChange);
+  bk.addEventListener('input', onChange);
+  sync();
+
+  function armFallback(){
+    clearTimeout(timer); fb.hidden = true;
+    var left = false;
+    function gone(){ left = true; }
+    window.addEventListener('blur', gone, {once:true});
+    document.addEventListener('visibilitychange', gone, {once:true});
+    timer = setTimeout(function(){
+      window.removeEventListener('blur', gone);
+      document.removeEventListener('visibilitychange', gone);
+      if(!left) fb.hidden = false;
+    }, 1800);
+  }
+  send.addEventListener('click', function(e){
+    var m = sync();
+    if(!m){ e.preventDefault(); err.textContent = 'Please choose a package first.'; return; }
+    err.textContent = '';
+    armFallback();
+  });
+  gm.addEventListener('click', function(e){
+    var m = sync();
+    if(!m){ e.preventDefault(); err.textContent = 'Please choose a package first.'; }
+  });
+
+  var copyBtn = document.getElementById('bkCopy');
+  copyBtn.addEventListener('click', function(){
+    var m = sync();
+    if(!m){ err.textContent = 'Please choose a package first.'; return; }
+    var text = 'To: ' + TO + '\nSubject: ' + m.subject + '\n\n' + m.body;
+    function done(){ copyBtn.textContent = 'Copied'; setTimeout(function(){ copyBtn.textContent = 'Copy message'; }, 1800); }
+    function old(){
+      var t = document.createElement('textarea'); t.value = text; t.style.position = 'fixed'; t.style.opacity = '0';
+      document.body.appendChild(t); t.select();
+      try{ document.execCommand('copy'); done(); }catch(e){}
+      document.body.removeChild(t);
+    }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done, old); } else { old(); }
+  });
+})();
+</script>
+
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cd248a13d6bd40ff9023783eb7570f4f"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>
